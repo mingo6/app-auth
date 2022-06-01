@@ -1,0 +1,23 @@
+{
+    "name": "sobyte/app-auth",
+    "description": "app auth",
+    "keywords": ["sobyte", "app-auth"],
+    "license": "MIT",
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Sobyte\\AppAuth\\": "src/"
+        }
+    },
+    "authors": [
+    {
+        "name": "Jimmie",
+        "email": "shearer2001@163.com"
+    }],
+    "require":
+    {
+        "php": ">=7.1.0",
+        "topthink/framework": "^6.0.0"
+    }
+}
